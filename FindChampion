@@ -1,0 +1,29 @@
+import java.util.*;
+
+class Solution {
+    public int findChampion(int n, int[][] edges) {
+        // Step 1: Initialize the in-degree array
+        int[] inDegree = new int[n];
+        
+        // Step 2: Populate the in-degree array
+        for (int[] edge : edges) {
+            int u = edge[0], v = edge[1];
+            inDegree[v]++;
+        }
+        
+        // Step 3: Find nodes with in-degree of 0
+        int champion = -1; // Variable to track the champion
+        for (int i = 0; i < n; i++) {
+            if (inDegree[i] == 0) {
+                if (champion != -1) {
+                    // More than one node with in-degree 0
+                    return -1;
+                }
+                champion = i;
+            }
+        }
+        
+        // Step 4: Return the champion if it exists
+        return champion;
+    }
+}
