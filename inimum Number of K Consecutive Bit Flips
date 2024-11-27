@@ -1,0 +1,58 @@
+import java.util.*;
+
+public class Solution {
+    public int[] shortestDistanceAfterQueries(int n, int[][] queries) {
+        // Initialize adjacency matrix for the graph
+        int[][] graph = new int[n][n];
+        int INF = Integer.MAX_VALUE / 2; // To avoid overflow during addition
+
+        // Initialize the graph with default edges
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(graph[i], INF);
+            if (i < n - 1) {
+                graph[i][i + 1] = 1; // Roads from city i to i+1
+            }
+        }
+
+        // Add self-loops (distance from a city to itself is 0)
+        for (int i = 0; i < n; i++) {
+            graph[i][i] = 0;
+        }
+
+        // Initialize answer array
+        int[] answer = new int[queries.length];
+        for (int i = 0; i < queries.length; i++) {
+            int u = queries[i][0];
+            int v = queries[i][1];
+
+            // Add the new road
+            graph[u][v] = 1;
+
+            // Run Floyd-Warshall algorithm to update shortest paths
+            for (int k = 0; k < n; k++) {
+                for (int x = 0; x < n; x++) {
+                    for (int y = 0; y < n; y++) {
+                        graph[x][y] = Math.min(graph[x][y], graph[x][k] + graph[k][y]);
+                    }
+                }
+            }
+
+            // Add the shortest path from 0 to n-1 to the answer
+            answer[i] = graph[0][n - 1];
+        }
+
+        return answer;
+    }
+
+    public static void main(String[] args) {
+        // Test case 1
+        int n1 = 5;
+        int[][] queries1 = {{2, 4}, {0, 2}, {0, 4}};
+        System.out.println(Arrays.toString(new Solution().shortestDistanceAfterQueries(n1, queries1))); // Output: [3, 2, 1]
+
+        // Test case 2
+        int n2 = 4;
+        int[][] queries2 = {{0, 3}, {0, 2}};
+        System.out.println(Arrays.toString(new Solution().shortestDistanceAfterQueries(n2, queries2))); // Output: [1, 1]
+    }
+}
