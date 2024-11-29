@@ -1,0 +1,67 @@
+import java.util.PriorityQueue;
+
+public class MinimumTimeToVisitCellInGrid {
+    public int minimumTime(int[][] grid) {
+        int m = grid.length, n = grid[0].length;
+        if (grid[1][0] > 1 && grid[0][1] > 1) return -1; // Early exit if initial moves are impossible.
+
+        // Min-heap to prioritize cells with the smallest time.
+        PriorityQueue<int[]> pq = new PriorityQueue<>((a, b) -> Integer.compare(a[0], b[0]));
+        boolean[][] visited = new boolean[m][n];
+        
+        pq.offer(new int[]{0, 0, 0}); // {time, row, col}
+
+        // Directions for moving up, down, left, right.
+        int[][] directions = {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+
+        while (!pq.isEmpty()) {
+            int[] current = pq.poll();
+            int time = current[0], row = current[1], col = current[2];
+
+            // If we reach the bottom-right cell, return the time.
+            if (row == m - 1 && col == n - 1) return time;
+
+            // Skip already visited cells.
+            if (visited[row][col]) continue;
+            visited[row][col] = true;
+
+            for (int[] dir : directions) {
+                int newRow = row + dir[0];
+                int newCol = col + dir[1];
+
+                // Check bounds and skip visited cells.
+                if (newRow < 0 || newRow >= m || newCol < 0 || newCol >= n || visited[newRow][newCol]) continue;
+
+                // Calculate the earliest time we can move to the neighbor.
+                int nextTime = Math.max(time + 1, grid[newRow][newCol]);
+
+                // Adjust `nextTime` to ensure it aligns with the constraints.
+                if ((nextTime - grid[newRow][newCol]) % 2 != 0) {
+                    nextTime++;
+                }
+
+                pq.offer(new int[]{nextTime, newRow, newCol});
+            }
+        }
+
+        return -1; // If the destination cannot be reached.
+    }
+
+    public static void main(String[] args) {
+        MinimumTimeToVisitCellInGrid solver = new MinimumTimeToVisitCellInGrid();
+
+        int[][] grid1 = {
+            {0, 1, 3, 2},
+            {5, 1, 2, 5},
+            {4, 3, 8, 6}
+        };
+        System.out.println(solver.minimumTime(grid1)); // Output: 7
+
+        int[][] grid2 = {
+            {0, 2, 4},
+            {3, 2, 1},
+            {1, 0, 4}
+        };
+        System.out.println(solver.minimumTime(grid2)); // Output: -1
+    }
+}
