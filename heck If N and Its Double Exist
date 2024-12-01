@@ -1,0 +1,32 @@
+import java.util.HashSet;
+
+public class Solution {
+    public boolean checkIfExist(int[] arr) {
+        // HashSet to store elements for fast lookup
+        HashSet<Integer> seen = new HashSet<>();
+        
+        // Traverse the array
+        for (int x : arr) {
+            // Check if 2 * x exists or x / 2 exists in the set
+            if (seen.contains(2 * x) || (x % 2 == 0 && seen.contains(x / 2))) {
+                return true;
+            }
+            // Add the current number to the set
+            seen.add(x);
+        }
+        // Return false if no pair is found
+        return false;
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Example 1
+        int[] arr1 = {10, 2, 5, 3};
+        System.out.println(solution.checkIfExist(arr1)); // Output: true
+
+        // Example 2
+        int[] arr2 = {3, 1, 7, 11};
+        System.out.println(solution.checkIfExist(arr2)); // Output: false
+    }
+}
