@@ -1,0 +1,38 @@
+class Solution {
+    public int isPrefixOfWord(String sentence, String searchWord) {
+        // Split the sentence into words
+        String[] words = sentence.split(" ");
+        
+        // Iterate through the words with their 1-based index
+        for (int i = 0; i < words.length; i++) {
+            // Check if searchWord is a prefix of the current word
+            if (words[i].startsWith(searchWord)) {
+                return i + 1; // Return 1-based index
+            }
+        }
+        
+        // If no word matches, return -1
+        return -1;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        
+        // Example 1
+        String sentence1 = "i love eating burger";
+        String searchWord1 = "burg";
+        System.out.println(solution.isPrefixOfWord(sentence1, searchWord1)); // Output: 4
+
+        // Example 2
+        String sentence2 = "this problem is an easy problem";
+        String searchWord2 = "pro";
+        System.out.println(solution.isPrefixOfWord(sentence2, searchWord2)); // Output: 2
+
+        // Example 3
+        String sentence3 = "i am tired";
+        String searchWord3 = "you";
+        System.out.println(solution.isPrefixOfWord(sentence3, searchWord3)); // Output: -1
+    }
+}
