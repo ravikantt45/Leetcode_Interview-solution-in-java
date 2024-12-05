@@ -1,0 +1,37 @@
+public class Solution {
+    public boolean canChange(String start, String target) {
+        // Check if the strings have the same structure of 'L' and 'R' ignoring '_'
+        if (!start.replace("_", "").equals(target.replace("_", ""))) {
+            return false;
+        }
+
+        int n = start.length();
+        int i = 0, j = 0;
+
+        while (i < n && j < n) {
+            // Skip blanks in both strings
+            while (i < n && start.charAt(i) == '_') i++;
+            while (j < n && target.charAt(j) == '_') j++;
+
+            // If both indices are in bounds, compare characters
+            if (i < n && j < n) {
+                char startChar = start.charAt(i);
+                char targetChar = target.charAt(j);
+
+                // If the characters are not the same, return false
+                if (startChar != targetChar) return false;
+
+                // 'L' can only move left (i >= j)
+                if (startChar == 'L' && i < j) return false;
+
+                // 'R' can only move right (i <= j)
+                if (startChar == 'R' && i > j) return false;
+
+                i++;
+                j++;
+            }
+        }
+
+        return true;
+    }
+}
