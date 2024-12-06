@@ -1,0 +1,42 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class Solution {
+    public int maxCount(int[] banned, int n, int maxSum) {
+        // Create a set to store banned numbers for quick lookup
+        Set<Integer> bannedSet = new HashSet<>();
+        for (int num : banned) {
+            bannedSet.add(num);
+        }
+        
+        int count = 0;  // To track the number of chosen integers
+        int currentSum = 0;  // To track the sum of chosen integers
+
+        // Iterate through the range [1, n]
+        for (int i = 1; i <= n; i++) {
+            // Check if the number is not banned and adding it won't exceed maxSum
+            if (!bannedSet.contains(i) && currentSum + i <= maxSum) {
+                currentSum += i;  // Add the number to the sum
+                count++;  // Increment the count of chosen integers
+            }
+        }
+
+        return count;  // Return the maximum count
+    }
+
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        
+        // Example 1
+        int[] banned1 = {1, 6, 5};
+        System.out.println(solution.maxCount(banned1, 5, 6));  // Output: 2
+
+        // Example 2
+        int[] banned2 = {1, 2, 3, 4, 5, 6, 7};
+        System.out.println(solution.maxCount(banned2, 8, 1));  // Output: 0
+
+        // Example 3
+        int[] banned3 = {11};
+        System.out.println(solution.maxCount(banned3, 7, 50));  // Output: 7
+    }
+}
