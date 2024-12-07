@@ -1,0 +1,56 @@
+// class Solution {
+//     public String gcdOfStrings(String str1, String str2) {
+//        if(str2.length()>str.length()){
+//         return gcdofStrings(str2,str1);
+
+//        } 
+//        if(str1.startsWith(str2)){
+//         return gcdofStrings(str1.substring(str2.length(),str2);
+//        }
+//        return"";
+//     }
+// }
+public class Solution {
+    public String gcdOfStrings(String str1, String str2) {
+        // If str1 + str2 != str2 + str1, there's no common divisor string
+        if (!(str1 + str2).equals(str2 + str1)) {
+            return "";
+        }
+
+        // Compute the GCD of the lengths of the strings
+        int gcdLength = gcd(str1.length(), str2.length());
+
+        // The GCD string is the prefix of str1 with length gcdLength
+        return str1.substring(0, gcdLength);
+    }
+
+    // Helper method to compute the GCD of two integers
+    private int gcd(int a, int b) {
+        while (b != 0) {
+            int temp = b;
+            b = a % b;
+            a = temp;
+        }
+        return a;
+    }
+
+    // Main method to test the function
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+
+        // Example 1
+        String str1_1 = "ABCABC";
+        String str2_1 = "ABC";
+        System.out.println(solution.gcdOfStrings(str1_1, str2_1)); // Output: "ABC"
+
+        // Example 2
+        String str1_2 = "ABABAB";
+        String str2_2 = "ABAB";
+        System.out.println(solution.gcdOfStrings(str1_2, str2_2)); // Output: "AB"
+
+        // Example 3
+        String str1_3 = "LEET";
+        String str2_3 = "CODE";
+        System.out.println(solution.gcdOfStrings(str1_3, str2_3)); // Output: ""
+    }
+}
