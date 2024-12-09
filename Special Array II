@@ -1,0 +1,26 @@
+import java.util.*;
+
+class Solution {
+    public boolean[] isArraySpecial(int[] nums, int[][] queries) {
+        boolean[] result = new boolean[queries.length];
+        
+        // Process each query
+        for (int k = 0; k < queries.length; k++) {
+            int from = queries[k][0];
+            int to = queries[k][1];
+            boolean isSpecial = true;
+            
+            // Check if every adjacent pair has different parity
+            for (int i = from; i < to; i++) {
+                if ((nums[i] % 2) == (nums[i + 1] % 2)) {
+                    isSpecial = false;
+                    break;
+                }
+            }
+            
+            result[k] = isSpecial;
+        }
+        
+        return result;
+    }
+}
