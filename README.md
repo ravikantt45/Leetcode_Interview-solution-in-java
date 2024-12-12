@@ -7,6 +7,7 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 ## Binary Search
 |  |
 | ------- |
@@ -15,4 +16,12 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
+## Simulation
+|  |
+| ------- |
+| [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 <!---LeetCode Topics End-->
