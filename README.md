@@ -24,4 +24,16 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
+## Two Pointers
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0005-longest-palindromic-substring) |
+## String
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0005-longest-palindromic-substring) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0005-longest-palindromic-substring](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0005-longest-palindromic-substring) |
 <!---LeetCode Topics End-->
