@@ -8,6 +8,7 @@ solution from leetcode 70 question for interview
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Binary Search
 |  |
 | ------- |
@@ -20,10 +21,12 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Simulation
 |  |
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Two Pointers
 |  |
 | ------- |
@@ -36,4 +39,12 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0005-longest-palindromic-substring) |
+## Hash Table
+|  |
+| ------- |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+## Sorting
+|  |
+| ------- |
+| [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 <!---LeetCode Topics End-->
