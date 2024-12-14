@@ -9,6 +9,7 @@ solution from leetcode 70 question for interview
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
 ## Binary Search
 |  |
 | ------- |
@@ -22,6 +23,7 @@ solution from leetcode 70 question for interview
 | ------- |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
 ## Simulation
 |  |
 | ------- |
@@ -47,4 +49,20 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+## Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
+## Sliding Window
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
+## Ordered Set
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
 <!---LeetCode Topics End-->
