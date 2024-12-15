@@ -7,6 +7,7 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
@@ -21,6 +22,7 @@ solution from leetcode 70 question for interview
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
@@ -65,4 +67,8 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
+## Greedy
+|  |
+| ------- |
+| [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
 <!---LeetCode Topics End-->
