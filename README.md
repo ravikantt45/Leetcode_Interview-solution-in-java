@@ -24,6 +24,7 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 | [2868-continuous-subarrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2868-continuous-subarrays) |
@@ -42,6 +43,7 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0005-longest-palindromic-substring) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -49,6 +51,7 @@ solution from leetcode 70 question for interview
 ## Hash Table
 |  |
 | ------- |
+| [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Sorting
 |  |
@@ -74,8 +77,13 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
+| [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 ## Math
 |  |
 | ------- |
 | [3555-final-array-state-after-k-multiplication-operations-i](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/3555-final-array-state-after-k-multiplication-operations-i) |
+## Counting
+|  |
+| ------- |
+| [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 <!---LeetCode Topics End-->
