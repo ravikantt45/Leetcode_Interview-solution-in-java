@@ -7,6 +7,7 @@ solution from leetcode 70 question for interview
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0004-median-of-two-sorted-arrays) |
+| [0780-max-chunks-to-make-sorted](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
 | [2692-take-gifts-from-the-richest-pile](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2692-take-gifts-from-the-richest-pile) |
@@ -57,6 +58,7 @@ solution from leetcode 70 question for interview
 ## Sorting
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0780-max-chunks-to-make-sorted) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Queue
 |  |
@@ -77,6 +79,7 @@ solution from leetcode 70 question for interview
 ## Greedy
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0780-max-chunks-to-make-sorted) |
 | [1917-maximum-average-pass-ratio](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1917-maximum-average-pass-ratio) |
 | [2300-construct-string-with-repeat-limit](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/2300-construct-string-with-repeat-limit) |
 ## Math
@@ -90,9 +93,11 @@ solution from leetcode 70 question for interview
 ## Stack
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 ## Monotonic Stack
 |  |
 | ------- |
+| [0780-max-chunks-to-make-sorted](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/ravikantt45/Leetcode_Interview-solution-in-java/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 <!---LeetCode Topics End-->
